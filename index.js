@@ -7,19 +7,6 @@ const todosUL = document.getElementById('todos');
 
 const todos = JSON.parse(localStorage.getItem('todos'))
 
-// if(todos){
-//     todos.forEach(item => {
-//         addToDo(item)})
-    
-// } else {
-//     throw new Error('No Todos')
-// }
-
-// form.addEventListener('submit', (event) => {
-//      event.preventDefault();
-//      addToDo()
-// })
-
 const addToDo = (todo) => {
     let todoText = input.value;
     if(todo){
@@ -33,11 +20,13 @@ const addToDo = (todo) => {
         todoEl.innerText = todoText;
         todoEl.addEventListener('click', () => {
             todoEl.classList.toggle('completed')
+            updateLocalStorage()
         } )
 
         todoEl.addEventListener('contextmenu', (event) => {
             event.preventDefault();
             todoEl.remove()
+            updateLocalStorage()
         } )
 
 
