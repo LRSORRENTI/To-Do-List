@@ -43,6 +43,10 @@ input::placeholder {
   color: rgb(182, 182, 234);
 }
 
+.input:focus {
+  outline-color: rgb(240, 137, 133);
+}
+
 .todos {
   background-color: rgb(255, 187, 187);
   padding: 0;
@@ -60,4 +64,11 @@ input::placeholder {
 
 .completed {
   text-decoration: line-through;
+}
+
+small {
+  color: rgb(60, 56, 56);
+  margin-top: 3rem;
+  text-align: center;
+  line-height: 20px;
 }
