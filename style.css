@@ -23,4 +23,20 @@ h1 {
 
 form {
   box-shadow: 0 4px 10px rgb(44, 44, 44);
+  max-width: 100%;
+  width: 400px;
+}
+
+.input {
+  border: none;
+  color: navy;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  display: block;
+  width: 100%;
+}
+
+input::placeholder {
+  color: rgb(85, 85, 112);
 }
