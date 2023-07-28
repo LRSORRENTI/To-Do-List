@@ -13,3 +13,14 @@ body {
   color: rgb(154, 86, 86);
   margin: 0;
 }
+
+h1 {
+  color: rgb(240, 137, 133);
+  font-size: 9rem;
+  text-align: center;
+  opacity: 0.4;
+}
+
+form {
+  box-shadow: 0 4px 10px rgb(44, 44, 44);
+}
