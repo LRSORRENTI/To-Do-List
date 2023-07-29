@@ -45,7 +45,7 @@ gulp
 
 This will create a dist folder in your directory, with your processed .postcss file converted to a .css file.
 
-**Running the App**
+**Running the App:**
 
 To see the app in action, use Live Server to serve your index.html file. If you have Live Server installed globally, you can run the following command in the terminal:
 
@@ -55,9 +55,9 @@ live-server
 
 This will open a new browser window/tab with your app running.
 
-**Contributing**
+**Contributing:**
 
 Contributions, issues, and feature requests are welcome! See issues if you want to contribute.
 
-**License**
+**License:**
 This project is licensed under the ISC License.
