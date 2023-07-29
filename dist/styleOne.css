@@ -39,7 +39,7 @@ body {
 
 h1 {
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   background-image: linear-gradient(
     to right,
     #09f1b8,
@@ -71,7 +71,17 @@ form {
 
 .input {
   border: none;
-  color: navy;
+  /* color: navy; */
+  /* background-color: #09f1b8; */
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #09f1b8,
+    #00a2ff,
+    #ff00d2,
+    #fed90f
+  );
   font-size: 2rem;
   padding-left: 1rem;
   padding-right: 2rem;
@@ -82,15 +92,54 @@ form {
 }
 
 input::-moz-placeholder {
-  color: rgb(182, 182, 234);
+  /* color: rgb(182, 182, 234); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #09f1b8,
+    #00a2ff,
+    #ff00d2,
+    #fed90f
+  );
+  color: #000119;
+  color: var(--color-background);
+  font-weight: 700;
+  font-weight: var(--font-weight);
+  letter-spacing: calc(1em / 8);
+  letter-spacing: var(--letter-spacing);
+  padding: calc(--stroke-width / 2);
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-text-stroke-width: var(--stroke-width);
 }
 
 input::placeholder {
-  color: rgb(182, 182, 234);
+  /* color: rgb(182, 182, 234); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #09f1b8,
+    #00a2ff,
+    #ff00d2,
+    #fed90f
+  );
+  color: #000119;
+  color: var(--color-background);
+  font-weight: 700;
+  font-weight: var(--font-weight);
+  letter-spacing: calc(1em / 8);
+  letter-spacing: var(--letter-spacing);
+  padding: calc(--stroke-width / 2);
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-text-stroke-width: var(--stroke-width);
 }
 
 .input:focus {
-  outline-color: rgb(240, 137, 133);
+  /* outline-color: rgb(240, 137, 133); */
+  outline-color: #09f1b8;
 }
 
 .todos {
