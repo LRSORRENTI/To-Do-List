@@ -1,5 +1,7 @@
 # To-Do App
 
+![Project Image](/images/TODO-PROJ.jpg)
+
 ## Description
 
 This is a simple To-Do List App built using vanilla JavaScript, HTML, and CSS (preprocessed with PostCSS). The app stores your tasks in the local storage, so you won't lose them when refreshing or closing the page.
