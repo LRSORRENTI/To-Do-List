@@ -70,7 +70,7 @@ form {
 }
 
 .input {
-  border: none;
+  border: 1.5px solid #00a2ff;
   /* color: navy; */
   /* background-color: #09f1b8; */
   -webkit-background-clip: text;
@@ -125,7 +125,6 @@ input::placeholder {
     #ff00d2,
     #fed90f
   );
-  color: #000119;
   color: var(--color-background);
   font-weight: 700;
   font-weight: var(--font-weight);
@@ -146,7 +145,10 @@ input::placeholder {
   background-color: rgb(255, 187, 187);
   padding: 0;
   list-style-type: none;
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .todos li {
@@ -155,15 +157,18 @@ input::placeholder {
   font-size: 1.5rem;
   padding-left: 1rem;
   padding-right: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .completed {
   -webkit-text-decoration: line-through;
   text-decoration: line-through;
+  background-color: red;
 }
 
 small {
-  color: rgb(60, 56, 56);
+  color: rgb(167, 163, 163);
   margin-top: 3rem;
   text-align: center;
   line-height: 20px;
