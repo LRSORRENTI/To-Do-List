@@ -1,6 +1,6 @@
 # To-Do App
 
-![Project Image]('./images/TODO-PROJ.jpg')
+![Project Image]('/images/TODO-PROJ.jpg')
 
 ## Description
 
